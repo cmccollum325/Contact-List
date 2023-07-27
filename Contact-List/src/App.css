@@ -40,3 +40,89 @@
 .read-the-docs {
   color: #888;
 }
+
+body{
+  background-color: rebeccapurple;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+  font-size: xx-large;
+  border: solid black;
+  background-color: black;
+}
+
+/* table {
+  border: solid black;
+} */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+div > p {
+  width: 100%;
+  /* border: solid black; */
+  /* border-collapse: collapse; */
+}
+.address{
+  width: 100%;
+  /* border: solid black; */
+  /* border-collapse: collapse; */
+  font-size: larger;
+  margin-top: 2em;
+}
+
+div > div {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.userInfo {
+  display: flexbox;
+  flex-direction: column;
+}
+
+.addressInfo {
+  display: flexbox;
+  /* flex-direction: column; */
+}
+button {
+  position: fixed;
+  margin-top: 25em;
+  margin-left: 7.5em;
+}
+
+.rows{
+  border: 3px solid black;
+}
+td{
+  border: solid black;
+}
+.selected{
+  border: solid black;
+}
